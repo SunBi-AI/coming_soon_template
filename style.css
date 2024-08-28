@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(24deg, rgb(58, 16, 120) 0%, rgb(78, 49, 170) 25%, rgb(55, 149, 189) 59%, rgb(247, 247, 248) 100%);
+  background-repeat: no-repeat;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.content__wrapper__body {
+  width: 100%;
+  height: 100vh;
+  font-weight: 300;
+}
+
+.social__icons__wrapper ul li a {
+  padding: 4px;
+}
+
+.countdown__timer {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+}/*# sourceMappingURL=style.css.map */

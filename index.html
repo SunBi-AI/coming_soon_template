@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="content__wrapper__body p-32 max-md:p-8">
+      <div class="top_content flex justify-between">
+        <!-- <p class="font-bold">This Organization</p> -->
+
+        <img src="/logo.png" alt="" class="w-20  max-md:w-16">
+        <button class="font-bold text-blue-800 border-2 border-blue-800 bg-white px-4 py-2 hover:opacity-80">Connect</button>
+      </div>
+
+
+      <h2 class="text-5xl max-md:text-3xl text-center mt-16 font-semibold">Coming Soon..</h2>
+     
+
+      <div class="countdown__timer flex text-white font-bold text-9xl  max-md:text-5xl justify-center items-center mt-32  max-md:mt-32" id="countDown"></div>
+
+      <div class="flex justify-center mt-32 max-md:mt-52 social__icons__wrapper">
+        <ul class="flex gap-8 text-xl">
+          <li><a href=""><ion-icon name="heart"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href=""><ion-icon name="paper-plane-outline"></ion-icon></a></li>
+          
+          <li><a href=""><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+        </ul>
+      </div>
+      <div class="copyright text-center mt-10">
+        <p>©2024 | ThisOrganization | All Rights Reserved</p>
+      </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
