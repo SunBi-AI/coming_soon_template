@@ -1,3 +1,7 @@
+/*------------------------------------------------
+also include style.css for complete layout use
+-------------------------------------------------*/
+
 body {
     // background: rgb(58,16,120);
     background: linear-gradient(24deg, rgba(58,16,120,1) 0%, rgba(78,49,170,1) 25%, rgba(55,149,189,1) 59%, rgba(247,247,248,1) 100%); 
@@ -40,11 +44,6 @@ body {
     background: -webkit-linear-gradient(24deg, rgba(227,208,255,1) 0%, rgba(230,222,255,1) 35%, rgba(144,222,255,1) 72%, rgba(247,247,248,1) 100%);
     background: linear-gradient(24deg, rgba(227,208,255,1) 0%, rgba(230,222,255,1) 35%, rgba(144,222,255,1) 72%, rgba(247,247,248,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3d0ff",endColorstr="#f7f7f8",GradientType=1); 
-}
-
-.th__404__content {
-    width: 60%;
-    margin: 0 auto;
 }
 
 

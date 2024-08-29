@@ -1,3 +1,6 @@
+/*------------------------------------------------
+also include style.css for complete layout use
+-------------------------------------------------*/
 body {
   background: linear-gradient(24deg, rgb(58, 16, 120) 0%, rgb(78, 49, 170) 25%, rgb(55, 149, 189) 59%, rgb(247, 247, 248) 100%);
   background-repeat: no-repeat;
@@ -28,11 +31,6 @@ body {
   background: rgb(227, 208, 255);
   background: linear-gradient(24deg, rgb(227, 208, 255) 0%, rgb(230, 222, 255) 35%, rgb(144, 222, 255) 72%, rgb(247, 247, 248) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3d0ff",endColorstr="#f7f7f8",GradientType=1);
-}
-
-.th__404__content {
-  width: 60%;
-  margin: 0 auto;
 }
 
 .for__error__4__22 {
