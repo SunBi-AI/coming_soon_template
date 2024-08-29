@@ -19,4 +19,24 @@ body {
 .countdown__timer {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 900;
+}
+
+/******************************
+    404__CONTENT
+*******************************/
+.content__wrapper__body.for__error__4 {
+  background: rgb(227, 208, 255);
+  background: linear-gradient(24deg, rgb(227, 208, 255) 0%, rgb(230, 222, 255) 35%, rgb(144, 222, 255) 72%, rgb(247, 247, 248) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3d0ff",endColorstr="#f7f7f8",GradientType=1);
+}
+
+.th__404__content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.for__error__4__22 {
+  background: rgb(174, 169, 255);
+  background: linear-gradient(24deg, rgb(174, 169, 255) 0%, rgb(251, 255, 222) 35%, rgb(199, 255, 195) 72%, rgb(252, 216, 216) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aea9ff",endColorstr="#fcd8d8",GradientType=1);
 }/*# sourceMappingURL=style.css.map */
